@@ -1,0 +1,17 @@
+What is the difference between an HTTP GET request vs a POST request?
+
+Both commands are HTTP methods for requesting information. A GET requests data from a specific source where all the information for the request is contained in the URL. Meanwhile a POST command submits data to be processed to a specified source and can contain info for the request for the server in the message body.
+
+Some other differences to note:
+
+GET method
+	-Parameters for the search remain in history because it is based on the URL
+	-Can be bookmarked
+	-Is less secure and more easily hacked.
+	-Should not be used to send passwords.
+
+
+POST method	
+	-Parameters are not saved in browser history
+	-Can not be bookmarked
+	-More difficult to hack making it a little safer to send ifo such as passwords.
